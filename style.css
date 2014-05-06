@@ -1,0 +1,108 @@
+body {
+   background-image: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0,#FAA51A), color-stop(1, #F47A20));
+}
+
+.container {
+   width: 720px;
+   position: absolute;
+   background: beige;
+   left: 50%;
+   margin: 10px 0px 10px -360px;
+   border-radius: 5px;
+   box-shadow: 10px 8px 5px #777;
+}
+
+.header, .main, .footer {
+   margin: 10px 10px 10px 10px;
+   border: 1px solid black;
+   padding: 10px;
+   background-color: skyblue;
+}
+
+.header {
+    height: 150px;
+}
+
+#headshot {
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    margin: 0 10px 0 0;
+	float: left;
+}
+
+#headshotpic {
+    height:150px;
+    width:150px;
+}
+
+#headerinfo {
+    display: inline-block;
+    height: 150px;
+    width: 500px;
+	float: right;
+}
+
+#address {
+   display: inline-block;
+}
+
+#name {
+   font-size: 20px;
+   display: block;
+   text-align: left;
+
+}
+
+#contact {
+   display: inline-block;
+   text-align: right;
+
+}
+
+#github, #twitter, #linkedin {
+    display: inline-block;
+    margin: 0 10% 0 11%;
+    padding: 3px;
+    height: 64px;
+    width: 64px;
+	float: left;
+}
+
+#linkedinicon {
+	/*shave off white corners*/
+    border-radius: 7px;
+    display: inline;
+}
+
+.projtitle {
+   font-style: italic;
+   display: inline-block;
+}
+
+.posholder {
+   width: 740px;
+
+}
+
+.position {
+   display: inline;
+}
+
+.daterange {
+   display: inline;
+
+}
+
+.projects {
+
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+	line-height: 0;
+}
